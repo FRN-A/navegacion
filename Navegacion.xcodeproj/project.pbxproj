@@ -14,6 +14,8 @@
 		3DA03FBE23396AC700CFF1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA03FBC23396AC700CFF1C1 /* LaunchScreen.storyboard */; };
 		3DA03FC923396AC700CFF1C1 /* NavegacionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA03FC823396AC700CFF1C1 /* NavegacionTests.swift */; };
 		3DA03FD423396AC700CFF1C1 /* NavegacionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA03FD323396AC700CFF1C1 /* NavegacionUITests.swift */; };
+		3DA03FE2233970ED00CFF1C1 /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA03FE1233970ED00CFF1C1 /* Materia.swift */; };
+		3DA03FE42339722600CFF1C1 /* CalificacionesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA03FE32339722600CFF1C1 /* CalificacionesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3DA03FCF23396AC700CFF1C1 /* NavegacionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavegacionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA03FD323396AC700CFF1C1 /* NavegacionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacionUITests.swift; sourceTree = "<group>"; };
 		3DA03FD523396AC700CFF1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA03FE1233970ED00CFF1C1 /* Materia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
+		3DA03FE32339722600CFF1C1 /* CalificacionesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalificacionesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3DA03FBA23396AC700CFF1C1 /* Assets.xcassets */,
 				3DA03FBC23396AC700CFF1C1 /* LaunchScreen.storyboard */,
 				3DA03FBF23396AC700CFF1C1 /* Info.plist */,
+				3DA03FE1233970ED00CFF1C1 /* Materia.swift */,
+				3DA03FE32339722600CFF1C1 /* CalificacionesController.swift */,
 			);
 			path = Navegacion;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				3DA03FB623396AC500CFF1C1 /* ViewController.swift in Sources */,
 				3DA03FB423396AC500CFF1C1 /* AppDelegate.swift in Sources */,
+				3DA03FE42339722600CFF1C1 /* CalificacionesController.swift in Sources */,
+				3DA03FE2233970ED00CFF1C1 /* Materia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
