@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D060FF4233AB4F90054AB0B /* DetallesMateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D060FF3233AB4F90054AB0B /* DetallesMateriaController.swift */; };
 		3DA03FB423396AC500CFF1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA03FB323396AC500CFF1C1 /* AppDelegate.swift */; };
 		3DA03FB623396AC500CFF1C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA03FB523396AC500CFF1C1 /* ViewController.swift */; };
 		3DA03FB923396AC500CFF1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA03FB723396AC500CFF1C1 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D060FF3233AB4F90054AB0B /* DetallesMateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesMateriaController.swift; sourceTree = "<group>"; };
 		3DA03FB023396AC500CFF1C1 /* Navegacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navegacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA03FB323396AC500CFF1C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DA03FB523396AC500CFF1C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				3DA03FBF23396AC700CFF1C1 /* Info.plist */,
 				3DA03FE1233970ED00CFF1C1 /* Materia.swift */,
 				3DA03FE32339722600CFF1C1 /* CalificacionesController.swift */,
+				3D060FF3233AB4F90054AB0B /* DetallesMateriaController.swift */,
 			);
 			path = Navegacion;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				3DA03FB623396AC500CFF1C1 /* ViewController.swift in Sources */,
 				3DA03FB423396AC500CFF1C1 /* AppDelegate.swift in Sources */,
 				3DA03FE42339722600CFF1C1 /* CalificacionesController.swift in Sources */,
+				3D060FF4233AB4F90054AB0B /* DetallesMateriaController.swift in Sources */,
 				3DA03FE2233970ED00CFF1C1 /* Materia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

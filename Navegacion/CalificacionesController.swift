@@ -9,12 +9,15 @@
 import Foundation
 import UIKit
 
-class CalificacionesUsuarios : UIViewController, UITableViewDataSource, UITableViewDelegate{
+class CalificacionesController : UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     var materias : [Materia] = []
     
+    @IBOutlet weak var tvMaterias: UITableView!
+    
     override func viewDidLoad() {
-        
+        materias.append(Materia(nombre: "Matemáticas", calificacionPrimerParcial: 8, calificacionSegundoParcial: 6, calificacionTercerParcial: 7, calificacionFinal: 7))
+        materias.append(Materia(nombre: "Español", calificacionPrimerParcial: 9, calificacionSegundoParcial: 7, calificacionTercerParcial: 6, calificacionFinal: 7))
     }
     
     //numero de secciones
@@ -33,5 +36,11 @@ class CalificacionesUsuarios : UIViewController, UITableViewDataSource, UITableV
         celda?.textLabel?.text = materias[indexPath.row].nombre
         
         return celda!
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToDetallesMateria"{
+            
+        }
     }
 }
